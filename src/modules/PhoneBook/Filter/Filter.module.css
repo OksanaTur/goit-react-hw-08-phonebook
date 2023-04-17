@@ -1,0 +1,27 @@
+.title {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 28px;
+    width: 320px;
+    margin-top: 4px;
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid rgb(58, 57, 57);
+    border-radius: 5px;
+    background-color: inherit;
+    font-family: 'Roboto';
+}
+
+.input:hover {
+    border: 1px solid rgb(58, 57, 57);
+    background-color: rgb(242, 238, 234);
+}

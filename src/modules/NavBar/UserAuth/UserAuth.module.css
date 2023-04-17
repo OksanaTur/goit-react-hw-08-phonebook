@@ -1,0 +1,16 @@
+.wrapper {
+    margin-left: auto;
+}
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+    padding: 10px 15px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.link:global(.active) {
+    color: inherit;
+    font-weight: bold;
+}

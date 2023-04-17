@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.label {
+    margin-bottom: 5px;
+}
+
+.input {
+    height: 30px;
+    font-size: 16px;
+    margin-top: 4px;
+    padding: 5px 8px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(58, 57, 57);
+    border-radius: 5px;
+    background-color: inherit;
+}
+
+.input:hover {
+    border: 1px solid rgb(58, 57, 57);
+    background-color: rgb(242, 238, 234);
+}

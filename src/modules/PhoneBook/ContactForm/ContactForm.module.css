@@ -1,0 +1,60 @@
+.form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    width: 400;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 30px;
+}
+
+.title {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.input {
+    margin-top: 4px;
+    height: 28px;
+    display: block;
+    width: 320px;
+    margin-top: 4px;
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid rgb(58, 57, 57);
+    border-radius: 5px;
+    background-color: inherit;
+    font-family: 'Roboto';
+}
+
+.input:hover {
+    border: 1px solid rgb(58, 57, 57);
+    background-color: rgb(242, 238, 234);
+}
+
+.button {
+    padding: 10px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(180, 180, 180);
+    color: rgb(58, 57, 57);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+.button:hover {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(128, 181, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

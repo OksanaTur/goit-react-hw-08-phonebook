@@ -1,0 +1,14 @@
+.wrapper {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+}
+
+.name {
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-family: inherit;
+}

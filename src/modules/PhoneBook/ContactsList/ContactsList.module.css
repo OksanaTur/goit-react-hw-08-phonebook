@@ -1,0 +1,54 @@
+p {
+    margin: 0;
+    font-weight: 500;
+}
+
+.list {
+    padding: 0;
+    margin-left: 25px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: fit-content;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Roboto';
+}
+
+.contact {
+    margin-right: 15px;
+}
+
+.number {
+    font-weight: normal;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 32px;
+    padding: 10px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(180, 180, 180);
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(58, 57, 57);
+    font-family: 'Roboto';
+}
+
+.button:hover {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(242, 124, 124);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 5px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
